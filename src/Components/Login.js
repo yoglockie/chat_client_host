@@ -33,7 +33,7 @@ function Login() {
       };
        
       const response = await axios.post(
-        "http://localhost:8080/user/login/",
+        "https://chat-server-host.onrender.com/user/login/",
         data,
         config
       );
@@ -66,7 +66,7 @@ function Login() {
       };
 
       const response = await axios.post(
-        "http://localhost:8080/user/register/",
+        "https://chat-server-host.onrender.com/user/register/",
         data,
         config
       );
